@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         
-        title: Text(widget.title),
+        title: Text(widget.title,style: const TextStyle(backgroundColor: Colors.blueGrey ),),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
