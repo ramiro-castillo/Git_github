@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       title: 'Rama principal',
       theme: ThemeData(
         
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.redAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'GitHub'),
+      home: const MyHomePage(title: 'Curso git github'),
     );
   }
 }
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         
-        title: Text(widget.title),
+        title: Text(widget.title,style: const TextStyle(backgroundColor: Colors.blueGrey ),),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
